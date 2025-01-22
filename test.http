@@ -1,0 +1,40 @@
+### gtts en
+POST http://localhost:5000/gtts HTTP/1.1
+Content-Type: application/json
+
+{
+    "text": "English is a West Germanic language in the Indo-European language family.",
+    "lang": "en",
+    "locale": "us"
+}
+### gtts vi
+POST http://localhost:5000/gtts HTTP/1.1
+Content-Type: application/json
+
+{
+    "text": "Tiếng Việt hay tiếng Kinh là một ngôn ngữ thuộc ngữ hệ Nam Á",
+    "lang": "vi"
+}
+
+### etts all param
+POST http://localhost:5000/etts HTTP/1.1
+Content-Type: application/json
+
+{
+    "text": "Tiếng Việt hay tiếng Kinh là một ngôn ngữ thuộc ngữ hệ Nam Á",
+    "voice": "vi-VN-HoaiMyNeural",
+    "volume": "+100%",
+    "speed": "+15%",
+    "pitch": "-5Hz"
+}
+
+### etts default
+POST http://localhost:5000/etts HTTP/1.1
+Content-Type: application/json
+
+{
+    "text": "This is another sample text."
+}
+
+
+

@@ -1,0 +1,6 @@
+flask 
+flask[async] 
+gtts 
+flask_compress 
+flask_limiter 
+edge_tts
