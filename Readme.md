@@ -1,6 +1,6 @@
 # Text-to-Speech API
 
-This project provides a simple Text-to-Speech (TTS) API using Flask.
+This project provides a simple Text-to-Speech (TTS) API using gtts and edge-tts.
 
 ## Installation
 
